@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contener{
+    max-width: 1440px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    
+    
+}
+.a-hom{
+    gap: 30px;
+    justify-content: space-between;
+    display: flex;
+}
+.welkom{
+    background-image:url(Rectangle48.png) ;
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.welkom2{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding:200px ;
+    gap: 40px;
+    color: #fff;
+    font-size: 25px;
+    flex-direction: column;
+}
+.btn{
+    background: rgba(250, 74, 12, 1);
+    width: 150px;
+    height: 30px;
+    border-color: rgb(246, 121, 32);
+    border-radius: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+.but{
+    background: rgb(225, 212, 207);
+    width: 150px;
+    height: 30px;
+    border-color: rgb(243, 236, 232);
+    border-radius: 10px;
+    font-size: 15px;
+}
+.contener button:hover{
+    background: rgb(225, 212, 207);
+    width: 150px;
+    height: 30px;
+    border-color: rgb(243, 236, 232);
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+
+}
+.contener button:hover{
+    background: rgb(245, 92, 31);
+    width: 150px;
+    height: 30px;
+    border-color: rgb(243, 236, 232);
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgb(254, 252, 252);
+
+}
+.pozeshn{
+position: absolute;
+top: 390px;
+}
+.how{
+    display: grid;
+    grid-template-columns:auto auto;
+    align-items: center;
+    font-size: 30px;  
+    gap: 30px;
+}
+.futr{
+    background-image:url(Rectangle47.png) ;
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.as{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding:200px ;
+    gap: 40px;
+    color: #fff;
+    font-size: 25px;
+    flex-direction: column;
+}
+.futer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}

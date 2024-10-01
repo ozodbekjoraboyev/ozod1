@@ -1,0 +1,101 @@
+.dark{
+    background-color: black;
+}
+.dark *{
+    color: #fff;
+}
+/* ///////////////////////////////////// */
+.content{
+    max-width: 1400px;
+    justify-content: center;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    font-size: 40px;
+    gap: 40px;
+
+}
+nav a{
+    text-decoration: none;
+
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: chocolate;
+    color: #fff;
+    border-color: chocolate;
+    border-radius: 5px;
+
+}
+.content button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-color: red;
+    border-radius: 8px;
+}
+.rem{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    font-size: 20px;
+}
+.havr{
+    display: flex;
+   align-items: center;
+justify-content: space-between;
+padding-left: 60px;
+}
+.imj{
+    padding-right: 150px;
+}
+.sekshn{
+   background-color: aqua;
+   height: 400px;
+
+  
+
+}
+.vare{
+    display: flex;
+gap: 40px;
+justify-content: center;
+margin: 0 auto;
+}
+.azer{
+width: 400px;
+justify-content: center;
+display: flex;
+flex-direction: column;
+background-color: rgb(121, 160, 181);
+border-radius: 8px;
+
+}
+.azei{
+    width: 420px;
+    justify-content: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(121, 160, 181);
+    border-radius: 8px;
+     
+}
+.walkom{
+    display: flex;
+    gap: 40px;
+}
+.soz{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.futr{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}

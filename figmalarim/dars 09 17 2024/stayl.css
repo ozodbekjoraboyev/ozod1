@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenr{
+   max-width: 1200px;
+   margin: 0 auto;
+   
+}
+.contenr nav{
+   max-width: 1200px;
+   height: 50px;
+    background-image: linear-gradient(red,black); 
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.contenr a{
+   text-decoration: none;
+   padding: 40px;
+   color: #fff;
+}
+button{
+   background-color: rgb(255, 255, 255);
+   width: 150px;
+   height: 30px;
+   border-radius: 8px;
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+   color: black;
+
+}
+.contenr button:hover{
+   background-color: rgb(255, 217, 0);
+}
+main{
+   background-image:url(rasim1.png) ;
+   max-width: 1200px;
+   height: 700px;
+
+}
+
+.dikoreshn{
+   /* max-width: 600px; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 500px;
+   color: #ffffff;
+justify-content: center;
+margin: o auto;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+section{
+   background-color: black;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+}
+.cursr{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 1200px;
+   background-color: black;
+   color: #fff;
+}
+.cursrt{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 1200px;
+   background-color: black;
+   color: #fff;
+}
+.rasm{
+   padding-top: 450px;
+   width: 600px;
+   height: 600px; 
+   flex-wrap: wrap;
+   background-image:url(rasmlar4.png);
+}
+
+.rasmi{
+   padding-top: 450px;
+   width: 600px;
+   height: 600px; 
+   flex-wrap: wrap;
+   background-image:url(IMAGE77.png);
+}
+.rayt{
+   display: flex;
+}
+.cursrti{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 1200px;
+   background-color: black;
+   color: #fff;  
+}
+.rasmiy{
+   padding-top: 450px;
+   width: 600px;
+   height: 600px; 
+   flex-wrap: wrap;
+   background-image:url(IMAGE41.png);
+}
+.rasmity{
+   padding-top: 450px;
+   width: 600px;
+   height: 600px; 
+   flex-wrap: wrap;
+   background-image:url(IMAGE33.png);
+}

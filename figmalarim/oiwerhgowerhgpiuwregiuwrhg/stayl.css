@@ -1,0 +1,127 @@
+*{
+    color:black
+}
+.dark {
+  background-color: black;
+}
+.dark * {
+  color: #fff;
+}
+nav {
+  display: flex;
+}
+/* /////////////////////////////////////////////////////// */
+.content {
+  max-width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-around;
+}
+nav a {
+  text-decoration: none;
+
+}
+/* .content:hover {
+  background-color: black;
+  color: #fff;
+} */
+.aa {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+.imj {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 50px;
+  align-items: center;
+  gap: 20px;
+}
+.dropdawn {
+  position: relative;
+}
+.dropdawn-content {
+  display: none;
+  position: absolute;
+  background-color: aqua;
+}
+
+.dropdawn:hover .dropdawn-content{
+    display: block;
+}
+.welkom{
+    align-items: center;   
+}
+.wioport{
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+} 
+.btn{
+  display: flex;
+  align-items: center;
+  background-color: grey;
+  padding: 20px;
+  width: 270px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+button{
+    background-color: blue;
+    border-radius: 5px;
+    border-color: rgb(47, 0, 255);
+    color: white;
+}
+.content button:hover{
+    background-color: chartreuse;
+    border-radius: 5px;
+    border-color: crimson;
+    color: #000;
+}
+.airpots{
+    width: 354px;
+height: 239px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+background-color: aqua;
+
+}
+.airpos{
+    display: flex;
+    gap: 30px;
+    border-radius: 8px;
+}
+.soz{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+.bakr{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+
+}
+.futr{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  margin: 0 auto;
+  max-width: 1200px;
+ 
+}
+.futr h4{
+  color: #fff;
+}

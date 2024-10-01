@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    width: 1400px;
+    gap: 90px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.dropdawn:hover{
+    background-color: aqua;
+}
+.drop{
+    color: rgb(2, 97, 180);
+    text-decoration: none;
+}
+
+.dropdawn {
+  position: relative;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 30px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #9f7878;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdawn:hover .dropdown-content {
+  display: block;
+}
+.doro{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(255, 153, 0);
+    border-radius: 8px;
+}
+.dropdawn button:hover{
+    width: 190px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+
+}
+.mekin{
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    font-size: 30px;
+
+}
+.but{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    font-size: 20px;
+
+}
+.btn{
+   width: 150px;
+   height: 50px;
+   border-radius: 8px;
+   font-size: 20px;
+}
+.vip{
+    display: flex;
+
+}
+.vip button:hover{
+ background-color: black;
+ color: orange;
+}

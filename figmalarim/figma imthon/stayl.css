@@ -1,0 +1,458 @@
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    scroll-behavior: auto;
+}
+
+.container{
+    margin: auto;
+    padding: auto;
+    width: 1440px;
+}
+header{
+    background-color: rgb(207, 218, 202);
+ /* padding: 10px; */
+    position: fixed;
+    justify-content: center;
+    width: 1440px;
+    gap: 4px;
+
+}
+.img11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: fixed;
+    top: 0;
+    background-color: #adc9a6;
+    width: 1440px;
+    height: 20px;
+
+}
+.navbar2{
+    background: rgba(21, 60, 60, 1);
+    justify-content: space-between;
+    display: flex;
+    padding: 30px 70px;
+    align-items: center;
+    width: 1440px;
+}
+.name1{
+    display: flex;
+    gap: 40px;
+}
+.li ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    color: rgb(162, 5, 5);
+    font-family: sans-serif;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 1440px;
+
+
+}
+/* button{
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+    width: 106px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 400;
+    line-height: 34px;
+} */
+.ozod{
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+    width:300px;
+    border-radius: 5px;
+    background-color: rgb(212, 228, 228);;
+}
+.ozod{
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;  
+}
+.sozlar{
+    font-family: Roboto;
+    font-size: 33px;
+    font-weight: 400;
+    letter-spacing: 2.880000114440918px;
+    text-align: center;
+    color: #adc9a6;
+}
+.rasm{
+    width: 1440px;
+    height: 562px;
+    margin-left: 40px;
+}
+.img2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+}
+.img3{
+    margin-top: 20px;
+}
+.uuu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.hamasi{
+    display: flex;
+    align-items: center;   
+}
+.ozot{
+    text-align: center;
+    padding: 10px;
+    /* height: 40px;
+    width:300px; */
+    border-radius: 5px;
+    background-color: rgb(212, 228, 228);;
+    margin-bottom: 50px;
+}
+.b1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.b2{
+    background-color:rgb(203, 220, 220) ;
+    padding: 40px;
+    margin-top: 15px;
+    border-radius: 12px;
+}
+.b2 h3{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.9599999785423279px;
+    text-align: left;
+}
+.img1{
+    margin-top: 50px;
+    flex-wrap: wrap;
+}    
+.c3{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.d5{
+    background-color:rgb(203, 220, 220) ;
+    padding: 40px;
+    margin-top: 15px;
+    border-radius: 12px;
+}
+.img4{
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.o5{
+    background-color:rgb(203, 220, 220) ;
+    padding: 40px;
+    margin-top: 15px;
+    border-radius: 12px;
+}
+.head10{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.head11{
+    background-color: #F2F8F8;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.padiing{
+    justify-content: center;
+    width: 1500px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.stree{
+    background-image: url(./orqafon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px;
+    border-radius: 20px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.stree h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1.600000023841858px;
+    text-align: left;
+    margin-bottom: 25px;
+    color: white;
+}
+.stree p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2800000011920929px;
+    text-align: left;
+    color: #fff;
+}
+.but1 {
+    background-color: #84a17d;
+    color: #fff;
+    width: 145px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.5s linear;
+    cursor: pointer;
+    padding: 5px;
+}
+.but1:hover{
+    background-color:white ;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s linear;
+}
+.stree {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #adc9a6;
+    display: flex;
+}
+.last-section {
+    background-image: url(./orqafon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1240px;
+    height: 304px;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.last-section img {
+    position: absolute;
+    margin-left: -100px;
+}
+.last-section h2 {
+    color: white;
+    margin-left: 50px;
+}
+.last-section h1 {
+    color: #adc9a6;
+    width: 72px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.last-section p {
+    color: #dde4e4;
+    font-size: 12px;
+    font-weight: 400;
+}
+.last-sect-divv {
+    margin-left: 80px;
+    display: flex;
+    gap: 50px;
+}
+.last-sect-div h2 {
+    margin-top: -100px;
+    margin-bottom: 30px;
+    font-size: 23px;
+}
+.last-sect-btn {
+    color: #ffffff;
+    background-color: #adc9a6;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 30px;
+}
+.last-sect-div {
+    padding-top: 60px;
+}
+.purchs {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/* footer qismi boshi*/
+footer{
+    display: flex;
+    background-color:rgba(21, 60, 60, 1);
+    width: 1440px;
+    height: 723px;
+    padding: 100px 190px;
+}
+.box_opw {
+    display: flex;
+}
+.box_build {
+    width: 380px;
+    height: 176px;
+    margin-right: 87px;
+}
+.box_build h3{
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1.600000023841858px;
+    text-align: left;
+    color: white;
+}
+.box_build p{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.3199999928474426px;
+    text-align: left;
+    color: rgba(221, 228, 228, 1);
+    margin-top: 30px;
+}
+.box_overview {
+    width: 170.91px;
+    height: 440px;
+    margin-right: 40px;
+}
+.box_pages{
+    width: 170.91px;
+    height: 440px;
+    margin-right: 40px;
+}
+.box_pages2{
+    width: 170.91px;
+    height: 440px;
+}
+.box_opw li p {
+    color: rgba(108, 137, 137, 1);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.3199999928474426px;
+    text-align: left;
+}
+ul{
+    list-style-type: none;
+  }
+  .box_align{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+  }
+  .box_align p{
+     margin-left: 4px;    
+     align-content: center;    
+     font-family: Roboto;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 16px;
+     letter-spacing: 0.2800000011920929px;
+     text-align: left;
+     color: white;
+}
+.box_align span{
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2800000011920929px;
+    text-align: left;
+    color: rgba(173, 201, 166, 1);  
+}
+.box_opw span{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(244, 245, 246, 1);
+}
+.box_align a{
+    margin-left: 4px;    
+    align-content: center;    
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2800000011920929px;
+    text-align: left;
+    color: white;
+    text-decoration: none; 
+}
+.box_align2{
+    display: flex;
+}
+.skrov{
+    position: fixed;
+    background-color: aqua;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    top: 20px;
+    width: 1440px;
+}
+.bottm{
+    display: flex;
+    background-color: rgb(255, 17, 0);
+    width: 100px;
+    height: 40px;border-radius: 6px;
+    color: rgb(255, 255, 255);
+    margin-left: 1440px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+* {
+  color: rgb(0, 0, 0);
+}
+.dark {
+  background-color: black;
+}
+.dark * {
+  color: #ffffff;
+}
+nav {
+  display: flex;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.welkom {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.velo {
+  padding-top: 40px;
+  font-size: 20px;
+}
+.velkom {
+  display: flex;
+  margin-top: 30px;
+}
+.wiport {
+  display: flex;
+  gap: 20px;
+}
+button {
+  background-color: chocolate;
+  color: #fff;
+  border-color: brown;
+}
+.content button:hover {
+  background-color: #fff;
+  color: black;
+  border-color: chartreuse;
+}
+.veko {
+  display: flex;
+  gap: 30px;
+  padding-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.ftr {
+  background-color: #000000;
+}
+.futr {
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;
+  padding-left: 20px;
+  max-width: 1200px;
+}
+.futri {
+  display: flex;
+  gap: 80px;
+  padding-left: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.ftr p {
+  color: #fff;
+}
+.ftr h2 {
+  color: #fff;
+  padding-left: 120px;
+}
